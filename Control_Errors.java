@@ -57,16 +57,16 @@ public class Control_Errors {
     /**
      * Mètode per llegir un valor int amb control d'errors
      * @author Jaume Gàndara
-     * @version 1.1, 01/26/2023
+     * @version 1.2, 01/26/2023
      * @since JDK 19
      * @param text de tipus String
      * @param error de tipus String
-     * @return x de tipus int
+     * @return value de tipus int
      */
     private static int inputInt(String text, String error){
         Scanner input = new Scanner(System.in);
 
-        int x = 0;
+        int value = 0;
         boolean correctTyping;
 
         do {
@@ -76,30 +76,30 @@ public class Control_Errors {
             if (!correctTyping) {
                 System.out.println(error);
             } else {
-                x = input.nextInt();
+                value = input.nextInt();
             }
             input.nextLine();
         } while (!correctTyping);
 
-        return x;
+        return value;
     }
 
     /**
      * Mètode per llegir un valor int amb control d'errors i amb màxims i mínims
      * @author Jaume Gàndara
-     * @version 1.1, 01/26/2023
+     * @version 1.2, 01/26/2023
      * @since JDK 19
      * @param text de tipus String
      * @param error1 de tipus String
      * @param min de tipus int
      * @param max de tipus int
      * @param error2 de tipus String
-     * @return x de tipus int
+     * @return value de tipus int
      */
     private static int inputIntMinMax(String text, String error1,int min, int max, String error2){
         Scanner input = new Scanner(System.in);
 
-        int x = 0;
+        int value = 0;
         boolean correctTyping;
 
         do {
@@ -109,8 +109,8 @@ public class Control_Errors {
             if (!correctTyping) {
                 System.out.println(error1);
             } else {
-                x = input.nextInt();
-                if (min > x || max < x) {
+                value = input.nextInt();
+                if (min > value || max < value) {
                     System.out.println(error2);
                     correctTyping = false;
                 }
@@ -118,22 +118,22 @@ public class Control_Errors {
             input.nextLine();
         } while (!correctTyping);
 
-        return x;
+        return value;
     }
 
     /**
      * Mètode per llegir un valor float amb control d'errors
      * @author Jaume Gàndara
-     * @version 1.1, 01/26/2023
+     * @version 1.2, 01/26/2023
      * @since JDK 19
      * @param text de tipus String
      * @param error de tipus String
-     * @return x de tipus float
+     * @return value de tipus float
      */
     private static float inputFloat(String text, String error){
         Scanner input = new Scanner(System.in);
 
-        float x = 0;
+        float value = 0;
         boolean correctTyping;
 
         do {
@@ -143,30 +143,30 @@ public class Control_Errors {
             if (!correctTyping) {
                 System.out.println(error);
             } else {
-                x = input.nextFloat();
+                value = input.nextFloat();
             }
             input.nextLine();
         } while (!correctTyping);
 
-        return x;
+        return value;
     }
 
     /**
      * Mètode per llegir un valor float amb control d'errors i amb màxims i mínims
      * @author Jaume Gàndara
-     * @version 1.1, 01/26/2023
+     * @version 1.2, 01/26/2023
      * @since JDK 19
      * @param text de tipus String
      * @param error1 de tipus String
      * @param min de tipus float
      * @param max de tipus float
      * @param error2 de tipus String
-     * @return x de tipus float
+     * @return value de tipus float
      */
     private static float inputFloatMinMax(String text, String error1,float min, float max, String error2){
         Scanner input = new Scanner(System.in);
 
-        float x = 0;
+        float value = 0;
         boolean correctTyping;
 
         do {
@@ -176,8 +176,8 @@ public class Control_Errors {
             if (!correctTyping) {
                 System.out.println(error1);
             } else {
-                x = input.nextFloat();
-                if (min > x || max < x) {
+                value = input.nextFloat();
+                if (min > value || max < value) {
                     System.out.println(error2);
                     correctTyping = false;
                 }
@@ -185,6 +185,6 @@ public class Control_Errors {
             input.nextLine();
         } while (!correctTyping);
 
-        return x;
+        return value;
     }
 }
