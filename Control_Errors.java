@@ -6,36 +6,46 @@ public class Control_Errors {
      * @param args
      */
     public static void main(String[] args) {
+        menu();
+    }
+
+    /**
+     * Menú que crida a tots els mètodes de controls d'errors
+     * @author Jaume Gàndara
+     * @version 1.1, 01/26/2023
+     * @since JDK 19
+     */
+    private static void menu(){
         int opcio = 0;
 
         do {
             opcio = inputInt("Escull el mètode a executar:" +
-                                        "\n\t1.- inputInt" +
-                                        "\n\t2.- inputIntMinMax" +
-                                        "\n\t3.- inputFloat" +
-                                        "\n\t4.- inputFloatMinMax" +
-                                        "\n\t5.- Sortir\n",
-                                "ERROR: Tipatge incorrecte");
+                            "\n\t1.- inputInt" +
+                            "\n\t2.- inputIntMinMax" +
+                            "\n\t3.- inputFloat" +
+                            "\n\t4.- inputFloatMinMax" +
+                            "\n\t5.- Sortir\n",
+                    "ERROR: Tipatge incorrecte");
             switch (opcio){
                 case 1:
                     inputInt("Escriu un valor: ","ERROR: Tipatge incorrecte");
                     break;
                 case 2:
                     inputIntMinMax("Escriu un valor entre 1-10: ",
-                                    "ERROR: Tipatge incorrecte",
-                                    1,
-                                    10,
-                                    "ERROR: Valor fora de rang");
+                            "ERROR: Tipatge incorrecte",
+                            1,
+                            10,
+                            "ERROR: Valor fora de rang");
                     break;
                 case 3:
                     inputFloat("Escriu un valor: ","ERROR: Tipatge incorrecte");
                     break;
                 case 4:
                     inputFloatMinMax("Escriu un valor entre 1-10: ",
-                                        "ERROR: Tipatge incorrecte",
-                                        1,
-                                        10,
-                                        "ERROR: Valor fora de rang");
+                            "ERROR: Tipatge incorrecte",
+                            1,
+                            10,
+                            "ERROR: Valor fora de rang");
                     break;
                 default:
                     System.out.println("ERROR: Valor fora de rang");
@@ -46,6 +56,9 @@ public class Control_Errors {
 
     /**
      * Mètode per llegir un valor int amb control d'errors
+     * @author Jaume Gàndara
+     * @version 1.1, 01/26/2023
+     * @since JDK 19
      * @param text de tipus String
      * @param error de tipus String
      * @return x de tipus int
@@ -73,12 +86,15 @@ public class Control_Errors {
 
     /**
      * Mètode per llegir un valor int amb control d'errors i amb màxims i mínims
+     * @author Jaume Gàndara
+     * @version 1.1, 01/26/2023
+     * @since JDK 19
      * @param text de tipus String
      * @param error1 de tipus String
      * @param min de tipus int
      * @param max de tipus int
      * @param error2 de tipus String
-     * @return
+     * @return x de tipus int
      */
     private static int inputIntMinMax(String text, String error1,int min, int max, String error2){
         Scanner input = new Scanner(System.in);
@@ -107,6 +123,9 @@ public class Control_Errors {
 
     /**
      * Mètode per llegir un valor float amb control d'errors
+     * @author Jaume Gàndara
+     * @version 1.1, 01/26/2023
+     * @since JDK 19
      * @param text de tipus String
      * @param error de tipus String
      * @return x de tipus float
@@ -134,6 +153,9 @@ public class Control_Errors {
 
     /**
      * Mètode per llegir un valor float amb control d'errors i amb màxims i mínims
+     * @author Jaume Gàndara
+     * @version 1.1, 01/26/2023
+     * @since JDK 19
      * @param text de tipus String
      * @param error1 de tipus String
      * @param min de tipus float
