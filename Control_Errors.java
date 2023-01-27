@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Aquest script conte 4 tipus de control de dades (amb variables int i float)
+ * Aquest script conte 4 mètodes de control de dades (amb variables int i float)
  * @author Jaume Gàndara
  * @version 1.2
  * @date 27/1/2023
@@ -20,7 +20,7 @@ public class Control_Errors {
      * @since 1.1
      */
     private static void menu(){
-        int opcio = 0;
+        int opcio;
 
         do {
             opcio = inputInt("Escull el mètode a executar:" +
@@ -65,7 +65,7 @@ public class Control_Errors {
      * @param error de tipus String
      * @return value de tipus int
      */
-    private static int inputInt(String text, String error){
+    public static int inputInt(String text, String error){
         Scanner input = new Scanner(System.in);
 
         int value = 0;
@@ -96,7 +96,7 @@ public class Control_Errors {
      * @param error2 de tipus String
      * @return value de tipus int
      */
-    private static int inputIntMinMax(String text, String error1,int min, int max, String error2){
+    public static int inputIntMinMax(String text, String error1,int min, int max, String error2){
         Scanner input = new Scanner(System.in);
 
         int value = 0;
@@ -128,7 +128,7 @@ public class Control_Errors {
      * @param error de tipus String
      * @return value de tipus float
      */
-    private static float inputFloat(String text, String error){
+    public static float inputFloat(String text, String error){
         Scanner input = new Scanner(System.in);
 
         float value = 0;
@@ -159,7 +159,7 @@ public class Control_Errors {
      * @param error2 de tipus String
      * @return value de tipus float
      */
-    private static float inputFloatMinMax(String text, String error1,float min, float max, String error2){
+    public static float inputFloatMinMax(String text, String error1,float min, float max, String error2){
         Scanner input = new Scanner(System.in);
 
         float value = 0;
