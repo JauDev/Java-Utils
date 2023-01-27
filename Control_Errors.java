@@ -1,5 +1,11 @@
 import java.util.Scanner;
 
+/**
+ * Aquest script conte 4 tipus de control de dades (amb variables int i float)
+ * @author Jaume Gàndara
+ * @version 1.2
+ * @date 27/1/2023
+ */
 public class Control_Errors {
     /**
      * Mètode main
@@ -11,9 +17,7 @@ public class Control_Errors {
 
     /**
      * Menú que crida a tots els mètodes de controls d'errors
-     * @author Jaume Gàndara
-     * @version 1.1, 01/26/2023
-     * @since JDK 19
+     * @since 1.1
      */
     private static void menu(){
         int opcio = 0;
@@ -56,9 +60,7 @@ public class Control_Errors {
 
     /**
      * Mètode per llegir un valor int amb control d'errors
-     * @author Jaume Gàndara
-     * @version 1.2, 01/26/2023
-     * @since JDK 19
+     * @since 1.2
      * @param text de tipus String
      * @param error de tipus String
      * @return value de tipus int
@@ -86,9 +88,7 @@ public class Control_Errors {
 
     /**
      * Mètode per llegir un valor int amb control d'errors i amb màxims i mínims
-     * @author Jaume Gàndara
-     * @version 1.2, 01/26/2023
-     * @since JDK 19
+     * @since 1.2
      * @param text de tipus String
      * @param error1 de tipus String
      * @param min de tipus int
@@ -123,9 +123,7 @@ public class Control_Errors {
 
     /**
      * Mètode per llegir un valor float amb control d'errors
-     * @author Jaume Gàndara
-     * @version 1.2, 01/26/2023
-     * @since JDK 19
+     * @since 1.2
      * @param text de tipus String
      * @param error de tipus String
      * @return value de tipus float
@@ -153,9 +151,7 @@ public class Control_Errors {
 
     /**
      * Mètode per llegir un valor float amb control d'errors i amb màxims i mínims
-     * @author Jaume Gàndara
-     * @version 1.2, 01/26/2023
-     * @since JDK 19
+     * @since 1.2
      * @param text de tipus String
      * @param error1 de tipus String
      * @param min de tipus float
