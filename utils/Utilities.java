@@ -2,6 +2,12 @@ package utils;
 
 import java.util.Scanner;
 
+/**
+ * Utilities
+ * @author Jaume Gàndara
+ * @version 1.0
+ * @date 23/03/2023
+ */
 public final class Utilities {
     static Scanner input = new Scanner(System.in);
 
