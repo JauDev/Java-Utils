@@ -9,6 +9,7 @@ public final class Utilities {
 
     /**
      * Mètode per llegir un valor String
+     * @since 1.0
      * @param text de tipus String, que és el text que veu l'usuari
      * @return t de tipus String, que és el text que ha introduït l'usuari
      */
@@ -164,6 +165,7 @@ public final class Utilities {
 
     /**
      * Mètode per convertir de Libra a Kilogram
+     * @since 1.0
      * @param lb de tipus double, que és el valor que l'usuari vol passar a Kilograms
      * @return kg de tipus double, que és el valor de l'usuari, ja passat a Kilograms
      */
@@ -174,6 +176,7 @@ public final class Utilities {
 
     /**
      * Mètode per convertir de Kilograms a Libras
+     * @since 1.0
      * @param kg de tipus double, que és el valor que l'usuari vol passar a Libras
      * @return lb de tipus double, que és el valor de l'usuari, ja passat a Libras
      */
