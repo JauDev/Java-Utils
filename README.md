@@ -1,10 +1,10 @@
 # Utilities
 ## 1. Control d'errors
 ### inputString
-* Mètode per llegir un valor String
-* @since 1.0
-* @param text de tipus String, que és el text que veu l'usuari
-* @return t de tipus String, que és el text que ha introduït l'usuari
+    * Mètode per llegir un valor String
+    * @since 1.0
+    * @param text de tipus String, que és el text que veu l'usuari
+    * @return t de tipus String, que és el text que ha introduït l'usuari
 ### inputInt
     * Mètode per llegir un valor int amb control d'errors
     * @since 1.0
