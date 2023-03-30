@@ -157,3 +157,24 @@
     * @since 1.1
     * @param ft de tipus double, que és el valor que l'usuari vol passar a Metres
     * @return m de tipus double, que és el valor que l'usuari, ja ha passat a Peus
+## 3. Colors (Versió 1.0)
+### 3.1
+    * BLACK = Lletra de color negre
+    * RED = Lletra de color vermella
+    * GREEN = Lletra de color verda
+    * YELLOW = Lletra de color groga
+    * BLUE = Lletra de color blava
+    * PURPLE = Lletra de color lila
+    * CYAN = Lletra de color cyan
+    * WHITE = Lletra de color blanca
+### 3.2
+    * BLACK_BACKGROUND = Text amb fons de color negre
+    * RED_BACKGROUND = Text amb fons de color vermell
+    * GREEN_BACKGROUND = Text amb fons de color verd
+    * YELLOW_BACKGROUND = Text amb fons de color grog
+    * BLUE_BACKGROUND = Text amb fons de color blau
+    * PURPLE_BACKGROUND = Text amb fons de color lila
+    * CYAN_BACKGROUND = Text amb fons de color cyan
+    * WHITE_BACKGROUND = Text amb fons de color blanc
+### 3.3
+    * RESET = Acabar canviar color
