@@ -1,17 +1,17 @@
 # Utilities
 ## 1. Control d'errors
-### inputString
+### 1.1 inputString
     * Mètode per llegir un valor String
     * @since 1.0
     * @param text de tipus String, que és el text que veu l'usuari
     * @return t de tipus String, que és el text que ha introduït l'usuari
-### inputInt
+### 1.2 inputInt
     * Mètode per llegir un valor int amb control d'errors
     * @since 1.0
     * @param text de tipus String, que és el text que veu l'usuari
     * @param error de tipus String, que és el text que veu l'usuari si hi ha un error de tipatge
     * @return value de tipus int, que és el valor que retorna
-### inputInt
+### 1.3 inputInt
     * Mètode per llegir un valor int amb control d'errors i amb màxims i mínims
     * @since 1.0
     * @param text de tipus String, que és el text que veu l'usuari
@@ -20,13 +20,13 @@
     * @param max de tipus int, que és el valor màxim
     * @param error2 de tipus String, que és el text que veu l'usuari si el valor està fora de rang
     * @return value de tipus int, que és el valor que retorna
-### inputFloat
+### 1.4 inputFloat
     * Mètode per llegir un valor float amb control d'errors
     * @since 1.0
     * @param text de tipus String, que és el text que veu l'usuari
     * @param error de tipus String, que és el text que veu l'usuari si hi ha un error de tipatge
     * @return value de tipus float, que és el valor que retorna
-### inputFloat
+### 1.5 inputFloat
      * Mètode per llegir un valor float amb control d'errors i amb màxims i mínims
      * @since 1.0
      * @param text de tipus String, que és el text que veu l'usuari
@@ -36,25 +36,59 @@
      * @param error2 de tipus String, que és el text que veu l'usuari si el valor està fora de rang
      * @return value de tipus float, que és el valor que retorna
 ## 2. Convertidors
-### converterCelsius
-     * Mètode per convertir els Fº en Cº
-     * @since 1.0
+### 2.1 converterCelsiusFahrenheit
+     * Mètode per convertir els ºC en ºF
+     * @since 1.2
      * @param text de tipus String, que és el text que veu l'usuari
      * @param error de tipus String, que és el text que veu l'usuari si hi ha un error de tipatge
-     * @return temperaturaCelsius de tipus float, conte la temperatura en Celsius
-### converterFahrenheit
-     * Mètode per convertir els Cº en Fº
-     * @since 1.0
+     * @return La temperatura en Fahrenheit
+### 2.2 converterCelsiusKelvin
+     * Mètode per convertir els ºC en ºK
+     * @since 1.2
      * @param text de tipus String, que és el text que veu l'usuari
      * @param error de tipus String, que és el text que veu l'usuari si hi ha un error de tipatge
-     * @return temperaturaFahrenheit de tipus float, conte la temperatura en Fahrenheit
-### converterKilo
+     * @return La temperatura en Kelvin
+### 2.3 converterFahrenheitCelsius
+     * Mètode per convertir els ºF en ºC
+     * @since 1.2
+     * @param text de tipus String, que és el text que veu l'usuari
+     * @param error de tipus String, que és el text que veu l'usuari si hi ha un error de tipatge
+     * @return La temperatura en Celsius
+### 2.4 converterFahrenheitKelvin
+     * Mètode per convertir els ºF en ºK
+     * @since 1.2
+     * @param text de tipus String, que és el text que veu l'usuari
+     * @param error de tipus String, que és el text que veu l'usuari si hi ha un error de tipatge
+     * @return La temperatura en Kelvin
+### 2.5 converterKelvinCelsius
+     * Mètode per convertir els ºK en ºC
+     * @since 1.2
+     * @param text de tipus String, que és el text que veu l'usuari
+     * @param error de tipus String, que és el text que veu l'usuari si hi ha un error de tipatge
+     * @return La temperatura en Celsius
+### 2.6 converterKelvinFahrenheit
+     * Mètode per convertir de ºK a ºF
+     * @since 1.2
+     * @param text de tipus String, que és el text que veu l'usuari
+     * @param error de tipus String, que és el text que veu l'usuari si hi ha un error de tipatge
+     * @return La temperatura en Fahrenheit
+### 2.7 converterKilo
      * Mètode per convertir de Libra a Kilogram
      * @since 1.0
      * @param lb de tipus double, que és el valor que l'usuari vol passar a Kilograms
      * @return kg de tipus double, que és el valor de l'usuari, ja passat a Kilograms
-### converterLibra
+### 2.8 converterLibra
      * Mètode per convertir de Kilograms a Libras
      * @since 1.0
      * @param kg de tipus double, que és el valor que l'usuari vol passar a Libras
      * @return lb de tipus double, que és el valor de l'usuari, ja passat a Libras
+### 2.9 converterFoot
+     * Mètode per convertir de Metres a Peus
+     * @since 1.1
+     * @param m de tipus double, que és el valor que l'usuari vol passar a Peus
+     * @return ft de tipus double, que és el valor que l'usuari, ja ha passat a Metres
+### 2.10 converterMeter
+     * Mètode per convertir de Peus a Metres
+     * @since 1.1
+     * @param ft de tipus double, que és el valor que l'usuari vol passar a Metres
+     * @return m de tipus double, que és el valor que l'usuari, ja ha passat a Peus
