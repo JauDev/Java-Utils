@@ -5,13 +5,55 @@ import java.util.Scanner;
 /**
  * Inputs
  * @author Jaume Gàndara
- * @version 1.1
- * @date 30/03/2023
+ * @version 1.2
+ * @date 12/05/2023
  */
 public final class Inputs {
     static Scanner input = new Scanner(System.in);
 
     private Inputs(){}
+
+    /**
+     * Mètode per llegir una lletra en minúscula amb un valor String
+     * @since 1.2
+     * @param text de tipus String, que és el text que veu l'usuari
+     * @return lletra de tipus String, que és la lletra en minúscula que ha introduït l'usuari
+     */
+    public static String inputOneLetterMinus(String text){
+        String lletra;
+
+        while(true){
+            System.out.println(text);
+            lletra = input.nextLine();
+
+            if (lletra.matches("[a-z]")){
+                return lletra;
+            }else{
+                System.out.println("ERROR: només pots introduïr una lletra minúscula");
+            }
+        }
+    }
+
+    /**
+     * Mètode per llegir una lletra en majúscula amb un valor String
+     * @since 1.2
+     * @param text de tipus String, que és el text que veu l'usuari
+     * @return lletra de tipus String, que és la lletra en majúscules que ha introduït l'usuari
+     */
+    public static String inputOneLetterMayus(String text){
+        String lletra;
+
+        while(true){
+            System.out.println(text);
+            lletra = input.nextLine();
+
+            if (lletra.matches("[A-Z]")){
+                return lletra;
+            }else{
+                System.out.println("ERROR: només pots introduïr una lletra majúscula");
+            }
+        }
+    }
 
     /**
      * Mètode per llegir una frase amb un valor String

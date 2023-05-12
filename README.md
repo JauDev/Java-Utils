@@ -1,22 +1,32 @@
 # Utilities
-## 1. Control d'errors (versió 1.1)
-### 1.1 inputStringWord
+## 1. Control d'errors (versió 1.2)
+### 1.1 inputOneLetterMinus
+    * Mètode per llegir una lletra en minúscula amb un valor String
+    * @since 1.2
+    * @param text de tipus String, que és el text que veu l'usuari
+    * @return lletra de tipus String, que és la lletra en minúscula que ha introduït l'usuari
+### 1.2 inputOneLetterMayus
+    * Mètode per llegir una lletra en majúscula amb un valor String
+    * @since 1.2
+    * @param text de tipus String, que és el text que veu l'usuari
+    * @return lletra de tipus String, que és la lletra en majúscules que ha introduït l'usuari
+### 1.3 inputStringWord
     * Mètode per llegir una frase amb un valor String
     * @since 1.1
     * @param text de tipus String, que és el text que veu l'usuari
     * @return w de tipus String, que és la paraula que ha introduït l'usuari
-### 1.2 inputStringSentence
+### 1.4 inputStringSentence
     * Mètode per llegir una frase amb un valor String
     * @since 1.1
     * @param text de tipus String, que és el text que veu l'usuari
     * @return s de tipus String, que és la frase que ha introduït l'usuari
-### 1.3 inputByte
+### 1.5 inputByte
     * Mètode per llegir un valor byte amb control d'errors
     * @since 1.1
     * @param text de tipus String, que és el text que veu l'usuari
     * @param error de tipus String, que és el text que veu l'usuari si hi ha un error de tipatge
     * @return value de tipus byte, que és el valor que retorna
-### 1.4 inputByte
+### 1.6 inputByte
     * Mètode per llegir un valor byte amb control d'errors i amb màxims i mínims
     * @since 1.1
     * @param text de tipus String, que és el text que veu l'usuari
@@ -25,13 +35,13 @@
     * @param max de tipus byte, que és el valor màxim
     * @param error2 de tipus String, que és el text que veu l'usuari si el valor està fora de rang
     * @return value de tipus byte, que és el valor que retorna
-### 1.5 inputShort
+### 1.7 inputShort
     * Mètode per llegir un valor short amb control d'errors
     * @since 1.1
     * @param text de tipus String, que és el text que veu l'usuari
     * @param error de tipus String, que és el text que veu l'usuari si hi ha un error de tipatge
     * @return value de tipus short, que és el valor que retorna
-### 1.6 inputShort
+### 1.8 inputShort
     * Mètode per llegir un valor short amb control d'errors i amb màxims i mínims
     * @since 1.1
     * @param text de tipus String, que és el text que veu l'usuari
@@ -40,13 +50,13 @@
     * @param max de tipus short, que és el valor màxim
     * @param error2 de tipus String, que és el text que veu l'usuari si el valor està fora de rang
     * @return value de tipus short, que és el valor que retorna
-### 1.7 inputInt
+### 1.9 inputInt
     * Mètode per llegir un valor int amb control d'errors
     * @since 1.0
     * @param text de tipus String, que és el text que veu l'usuari
     * @param error de tipus String, que és el text que veu l'usuari si hi ha un error de tipatge
     * @return value de tipus int, que és el valor que retorna
-### 1.8 inputInt
+### 1.10 inputInt
     * Mètode per llegir un valor int amb control d'errors i amb màxims i mínims
     * @since 1.0
     * @param text de tipus String, que és el text que veu l'usuari
@@ -55,13 +65,13 @@
     * @param max de tipus int, que és el valor màxim
     * @param error2 de tipus String, que és el text que veu l'usuari si el valor està fora de rang
     * @return value de tipus int, que és el valor que retorna
-### 1.9 inputLong
+### 1.11 inputLong
     * Mètode per llegir un valor long amb control d'errors
     * @since 1.1
     * @param text de tipus String, que és el text que veu l'usuari
     * @param error de tipus String, que és el text que veu l'usuari si hi ha un error de tipatge
     * @return value de tipus long, que és el valor que retorna
-### 1.10 inputLong
+### 1.12 inputLong
     * Mètode per llegir un valor long amb control d'errors i amb màxims i mínims
     * @since 1.1
     * @param text de tipus String, que és el text que veu l'usuari
@@ -70,13 +80,13 @@
     * @param max de tipus long, que és el valor màxim
     * @param error2 de tipus String, que és el text que veu l'usuari si el valor està fora de rang
     * @return value de tipus long, que és el valor que retorna
-### 1.11 inputFloat
+### 1.13 inputFloat
     * Mètode per llegir un valor float amb control d'errors
     * @since 1.0
     * @param text de tipus String, que és el text que veu l'usuari
     * @param error de tipus String, que és el text que veu l'usuari si hi ha un error de tipatge
     * @return value de tipus float, que és el valor que retorna
-### 1.12 inputFloat
+### 1.14 inputFloat
     * Mètode per llegir un valor float amb control d'errors i amb màxims i mínims
     * @since 1.0
     * @param text de tipus String, que és el text que veu l'usuari
@@ -85,13 +95,13 @@
     * @param max de tipus float, que és el valor màxim
     * @param error2 de tipus String, que és el text que veu l'usuari si el valor està fora de rang
     * @return value de tipus float, que és el valor que retorna
-### 1.13 inputDouble
+### 1.15 inputDouble
     * Mètode per llegir un valor double amb control d'errors
     * @since 1.1
     * @param text de tipus String, que és el text que veu l'usuari
     * @param error de tipus String, que és el text que veu l'usuari si hi ha un error de tipatge
     * @return value de tipus double, que és el valor que retorna
-### 1.14 inputDouble
+### 1.16 inputDouble
     * Mètode per llegir un valor double amb control d'errors i amb màxims i mínims
     * @since 1.1
     * @param text de tipus String, que és el text que veu l'usuari
