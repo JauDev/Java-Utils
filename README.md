@@ -167,7 +167,7 @@
     * @since 1.1
     * @param ft de tipus double, que és el valor que l'usuari vol passar a Metres
     * @return m de tipus double, que és el valor que l'usuari, ja ha passat a Peus
-## 3. Colors (Versió 1.0)
+## 3. Colors (Versió 1.1)
 ### 3.1
     * BLACK = Lletra de color negre
     * RED = Lletra de color vermella
@@ -187,4 +187,107 @@
     * CYAN_BACKGROUND = Text amb fons de color cyan
     * WHITE_BACKGROUND = Text amb fons de color blanc
 ### 3.3
+    * NEGRETA = Posar la lletra en negreta
+### 3.4
     * RESET = Acabar canviar color
+## 4. WriteBinariFile (Versió 1.1)
+### 4.1
+    * Mètode per escriure a continuació un valor String en un fitxer binari
+    * @since 1.0
+    * @param rutaFitxer de tipus String, que és la ruta del fitxer a escriure
+    * @param dada de tipus String, que és el valor que volem escriure dins del fitxer
+### 4.2
+    * Mètode per escriure a continuació un valor int en un fitxer binari
+    * @since 1.0
+    * @param rutaFitxer de tipus String, que és la ruta del fitxer a escriure
+    * @param dada de tipus int, que és el valor que volem escriure dins del fitxer
+### 4.3
+    * Mètode per escriure a continuació un valor long en un fitxer binari
+    * @since 1.0
+    * @param rutaFitxer de tipus String, que és la ruta del fitxer a escriure
+    * @param dada de tipus long, que és el valor que volem escriure dins del fitxer
+### 4.4
+    * Mètode per escriure a continuació un valor float en un fitxer binari
+    * @since 1.0
+    * @param rutaFitxer de tipus String, que és la ruta del fitxer a escriure
+    * @param dada de tipus float, que és el valor que volem escriure dins del fitxer
+### 4.5
+    * Mètode per escriure a continuació un valor double en un fitxer binari
+    * @since 1.0
+    * @param rutaFitxer de tipus String, que és la ruta del fitxer a escriure
+    * @param dada de tipus double, que és el valor que volem escriure dins del fitxer
+### 4.6
+    * Mètode per sobreescriure a continuació un valor String en un fitxer binari
+    * @since 1.0
+    * @param rutaFitxer de tipus String, que és la ruta del fitxer a escriure
+    * @param dada de tipus String, que és el valor que volem escriure dins del fitxer
+### 4.7
+    * Mètode per sobreescriure a continuació un valor int en un fitxer binari
+    * @since 1.0
+    * @param rutaFitxer de tipus String, que és la ruta del fitxer a escriure
+    * @param dada de tipus int, que és el valor que volem escriure dins del fitxer
+### 4.8
+    * Mètode per sobreescriure a continuació un valor long en un fitxer binari
+    * @since 1.0
+    * @param rutaFitxer de tipus String, que és la ruta del fitxer a escriure
+    * @param dada de tipus long, que és el valor que volem escriure dins del fitxer
+### 4.9
+    * Mètode per sobreescriure a continuació un valor float en un fitxer binari
+    * @since 1.0
+    * @param rutaFitxer de tipus String, que és la ruta del fitxer a escriure
+    * @param dada de tipus float, que és el valor que volem escriure dins del fitxer
+### 4.10
+    * Mètode per sobreescriure a continuació un valor double en un fitxer binari
+    * @since 1.0
+    * @param rutaFitxer de tipus String, que és la ruta del fitxer a escriure
+    * @param dada de tipus double, que és el valor que volem escriure dins del fitxer
+### 4.11
+    * Mètode per escriure a continuació un array de String en un fitxer binari
+    * @since 1.1
+    * @param rutaFitxer de tipus String, que és la ruta del fitxer a escriure
+    * @param dada de tipus String, que és el array que volem escriure dins del fitxer
+### 4.12
+    * Mètode per escriure a continuació un array de int en un fitxer binari
+    * @since 1.1
+    * @param rutaFitxer de tipus String, que és la ruta del fitxer a escriure
+    * @param dada de tipus int, que és el array que volem escriure dins del fitxer
+### 4.13
+    * Mètode per escriure a continuació un array de long en un fitxer binari
+    * @since 1.1
+    * @param rutaFitxer de tipus String, que és la ruta del fitxer a escriure
+    * @param dada de tipus long, que és el array que volem escriure dins del fitxer
+### 4.14
+    * Mètode per escriure a continuació un array de float en un fitxer binari
+    * @since 1.1
+    * @param rutaFitxer de tipus String, que és la ruta del fitxer a escriure
+    * @param dada de tipus float, que és el array que volem escriure dins del fitxer
+### 4.15
+    * Mètode per escriure a continuació un array de double en un fitxer binari
+    * @since 1.1
+    * @param rutaFitxer de tipus String, que és la ruta del fitxer a escriure
+    * @param dada de tipus double, que és el array que volem escriure dins del fitxer
+### 4.16
+    * Mètode per escriure a continuació un ArrayList<> de String en un fitxer binari
+    * @since 1.1
+    * @param rutaFitxer de tipus String, que és la ruta del fitxer a escriure
+    * @param dada de tipus String, que és el ArrayList<> que volem escriure dins del fitxer
+### 4.17
+    * Mètode per escriure a continuació un ArrayList<> de int en un fitxer binari
+    * @since 1.1
+    * @param rutaFitxer de tipus String, que és la ruta del fitxer a escriure
+    * @param dada de tipus int, que és el ArrayList<> que volem escriure dins del fitxer
+### 4.18
+    * Mètode per escriure a continuació un ArrayList<> de long en un fitxer binari
+    * @since 1.1
+    * @param rutaFitxer de tipus String, que és la ruta del fitxer a escriure
+    * @param dada de tipus long, que és el ArrayList<> que volem escriure dins del fitxer
+### 4.19
+    * Mètode per escriure a continuació un ArrayList<> de float en un fitxer binari
+    * @since 1.1
+    * @param rutaFitxer de tipus String, que és la ruta del fitxer a escriure
+    * @param dada de tipus float, que és el ArrayList<> que volem escriure dins del fitxer
+### 4.20
+    * Mètode per escriure a continuació un ArrayList<> de double en un fitxer binari
+    * @since 1.1
+    * @param rutaFitxer de tipus String, que és la ruta del fitxer a escriure
+    * @param dada de tipus double, que és el ArrayList<> que volem escriure dins del fitxer

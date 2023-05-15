@@ -3,8 +3,8 @@ package utils;
 /**
  * Converters
  * @author Jaume Gàndara
- * @version 1.0
- * @date 30/03/2023
+ * @version 1.1
+ * @date 15/05/2023
  */
 public class Colors {
     public static final String BLACK = "\033[30m";
@@ -24,6 +24,8 @@ public class Colors {
     public static final String PURPLE_BACKGROUND = "\033[45m";
     public static final String CYAN_BACKGROUND = "\033[46m";
     public static final String WHITE_BACKGROUND = "\033[47m";
+
+    public static final String NEGRETA = "\033[0;1m";
 
     public static final String RESET = "\u001B[0m";
 }
